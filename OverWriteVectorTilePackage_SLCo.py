@@ -112,11 +112,11 @@ def updateTiles(orgID, layerName, extent, lods,token):
 
 
 #Enter Username and Password
-user= 'SLCoVector' #raw_input('What is the ArcGIS Online Username?')
-pw = 'bw#r%X1%fBr2'#raw_input('What is the ArcGIS Online Password?')
-inItemID= '6abb83f03e6e4b0788d37e858df8475a'#raw_input('What is the Item ID of the uploaded VTPK?')
-layerName ='Salt_Lake_County_Base_Map'#raw_input('What is the Service Name of the service to overwrite ?')
-tpk = r'C:\Users\jaburton\Documents\ArcGIS\Projects\VectorBasemapVectorTile.vtpk'#location of VTPK
+user= 'userName' #raw_input('What is the ArcGIS Online Username?')
+pw = 'passWord'#raw_input('What is the ArcGIS Online Password?')
+inItemID= 'itemID'#raw_input('What is the Item ID of the uploaded VTPK?')
+layerName ='layerName'#raw_input('What is the Service Name of the service to overwrite ?')
+tpk = r'fileLocation'#location of VTPK
 #extent = 'extent'# example'{"xmin":-1.84761407196E7,"ymin":1995253.5241999999,"xmax":-7185123.9953000005,"ymax":1.1525580625400003E7,"spatialReference":{"wkid":102100}}'
 #lods = '0-19' #enter levels in format outlined http://resources.arcgis.com/en/help/arcgis-rest-api/index.html#/Update_Tiles/02r30000022v000000/
 extent = '{"xmin":-114.24,"ymin":36.97,"xmax":-108.86,"ymax":42.02,"spatialReference":{"wkid":102100}}'
